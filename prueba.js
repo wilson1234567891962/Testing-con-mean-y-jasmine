@@ -10,3 +10,23 @@ if (resultado === esperado) {
 } else {
   console.log('Prueba no exitosa');
 }
+
+function expect(actual) {
+  return {
+    toBe(expect) {
+      if (actual !== expect) {
+        throw new Error('Prueba no existosa');
+      }
+    }
+  };
+}
+
+
+function it(title, callback) {
+  try {
+    callback();
+    console.log('Prueba exitosa');
+  } catch (error) {
+    console.error('Prueba no exitosa');
+  }
+}
