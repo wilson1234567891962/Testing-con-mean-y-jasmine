@@ -1,0 +1,22 @@
+{
+  "name": "testing-con-mean-y-jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilson1234567891962/Testing-con-mean-y-jasmine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilson1234567891962/Testing-con-mean-y-jasmine/issues"
+  },
+  "homepage": "https://github.com/wilson1234567891962/Testing-con-mean-y-jasmine#readme",
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  }
+}
